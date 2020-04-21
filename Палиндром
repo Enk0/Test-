@@ -1,8 +1,8 @@
-a = input()
-b = len(a)
+x = input()
+y = len(x)
 
-for i in range(b//2):
-    if a[i] != a[-1-i]:
+for i in range(y//2):
+    if x[i] != x[-1-i]:
         print("Не палиндром")
         quit()
 print("Палиндром")
